@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="rootPane4" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #F0B247;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="sample.QuestionController">
+   <children>
+      <Label layoutX="19.0" layoutY="14.0" prefHeight="33.0" prefWidth="463.0" text="Question 3: Which Character is this?">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="188.0" fitWidth="219.0" layoutX="24.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/HS1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="188.0" fitWidth="313.0" layoutX="173.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/hS1.jpeg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="textBox3" layoutX="17.0" layoutY="261.0" promptText="Enter your answer here" />
+      <Button fx:id="confirm1" layoutX="184.0" layoutY="261.0" mnemonicParsing="false" onAction="#buttonPressed3" style="-fx-background-color: #236CC0;" text="Confirm" />
+      <Label fx:id="myMessage3" contentDisplay="CENTER" layoutX="261.0" layoutY="257.0" prefHeight="25.0" prefWidth="137.0" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="398.0" layoutY="262.0" mnemonicParsing="false" onAction="#loadFifth" style="-fx-background-color: #E52AD9;" text="Next Question" />
+   </children>
+</AnchorPane>
